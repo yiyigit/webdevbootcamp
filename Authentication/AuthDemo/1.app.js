@@ -19,6 +19,9 @@ app.get('/google', passport.authenticate("google",{
 );
 
 //callback route for google to redirect to
+app.get('/google/redirect, (req, res) =>{
+        res.send(
+        }
 
 
 module.exports = app
